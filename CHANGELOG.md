@@ -1,13 +1,13 @@
-## [project-title] Changelog
+## [Azure NetAppFiles Pool Change SDK Sample for Go] Changelog
 
-<a name="x.y.z"></a>
-# x.y.z (yyyy-mm-dd)
+<a name="1.0.0"></a>
+# 1.0.0 (2020-10-21)
 
 *Features*
-* ...
+* Initial version
 
 *Bug Fixes*
-* ...
+* N/A
 
 *Breaking Changes*
-* ...
+* N/A
