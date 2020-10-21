@@ -41,7 +41,7 @@ type (
 )
 
 var (
-	shouldCleanUp bool = true
+	shouldCleanUp bool = false
 
 	// Important - change ANF related variables below to appropriate values related to your environment
 	// Share ANF properties related
@@ -51,7 +51,7 @@ var (
 	vnetName                    = "vnet-01"
 	subnetName                  = "ANF-sn"
 	anfAccountName              = haikunator.New(time.Now().UTC().UnixNano()).Haikunate()
-	volumeName                  = "NFSv3Volume02"
+	volumeName                  = "NFSv3Volume01"
 	capacityPoolSizeBytes int64 = 4398046511104 // 4TiB (minimum capacity pool size)
 	volumeSizeBytes       int64 = 107374182400  // 100GiB (minimum volume size)
 	protocolTypes               = []string{"NFSv3"}
