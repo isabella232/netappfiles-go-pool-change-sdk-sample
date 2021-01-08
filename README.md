@@ -11,7 +11,7 @@ description: "This sample project demonstrates how to change the service level o
 
 # Azure NetAppFiles Pool Change SDK Sample for Go
 
-This sample project demonstrates how to dynamically change a volume's service level by moving from one capacity pool to another with a different performance tier using Azure Go SDK with Microsoft.NetApp resource provider. It works independently of the protocol type used.
+This sample project demonstrates how to dynamically change a volume's service level by moving from one capacity pool to another with a different performance tier using Azure Go SDK with Microsoft.NetApp resource provider. It works independently of the protocol type used. 
 
 In this sample application, we perform the following operations:
 
@@ -29,7 +29,7 @@ If you don't already have a Microsoft Azure subscription, you can get a FREE tri
 ## Prerequisites
 
 1. Go installed \(if not installed yet, follow the [official instructions](https://golang.org/dl/)\)
-1. Azure Subscription
+1. Azure Subscription.
 1. Subscription needs to be enabled for Azure NetApp Files. For more information, see [this](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-register#waitlist) document.
 1. Request preview access for Azure NetApp Files Pool Change. For more information, see [this](https://docs.microsoft.com/en-us/azure/azure-netapp-files/dynamic-change-volume-service-level#register-the-feature) document.  (This step is required only during the preview stage of the Pool Change feature.) 
 1. Resource Group created.
