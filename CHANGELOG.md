@@ -7,6 +7,7 @@
 
 *Features*
 * API version update
+* utils.go updated to be in sync with other ANF Go samples
 
 *Bug Fixes*
 * N/A
