@@ -62,11 +62,11 @@ var (
 
 	// Capacity Pools info
 	pools = map[string]*Properties{
-		"Source": &Properties{
+		"Source": {
 			CapacityPoolName: "SourcePremiumPool",
 			ServiceLevel:     "Premium",
 		},
-		"Destination": &Properties{
+		"Destination": {
 			CapacityPoolName: "DestinationStandardPool",
 			ServiceLevel:     "Standard",
 		},
@@ -238,8 +238,6 @@ func exit(cntx context.Context) {
 
 	if shouldCleanUp {
 		utils.ConsoleOutput("\tPerforming clean up")
-
-		// TODO: Implement clean up
 
 		// Volume Cleanup
 		utils.ConsoleOutput("\tCleaning up volume...")
