@@ -30,7 +30,7 @@ If you don't already have a Microsoft Azure subscription, you can get a FREE tri
 
 1. Go installed \(if not installed yet, follow the [official instructions](https://golang.org/dl/)\)
 1. Azure Subscription.
-1. Subscription needs to be enabled for Azure NetApp Files. For more information, see [this](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-register#waitlist) document.
+1. Subscription needs to have Azure NetApp Files resource provider registered. For more information, see [Register for NetApp Resource Provider](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-register).
 1. Request preview access for Azure NetApp Files Pool Change. For more information, see [this](https://docs.microsoft.com/en-us/azure/azure-netapp-files/dynamic-change-volume-service-level#register-the-feature) document.  (This step is required only during the preview stage of the Pool Change feature.) 
 1. Resource Group created.
 1. Virtual Network with a delegated subnet to Microsoft.Netapp/volumes resource. For more information, see [Guidelines for Azure NetApp Files network planning](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-network-topologies).
